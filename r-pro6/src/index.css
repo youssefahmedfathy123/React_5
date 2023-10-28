@@ -1,0 +1,35 @@
+.BigDiv{
+    width: 100px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.artic{
+    position: absolute;
+    background-color: rgb(60, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    transition: 1s;
+    width: 100px;
+    left:0;
+    top: 0;
+    opacity: 0;
+}
+.artic.left{
+transform: translateX(-100px);
+}
+.artic.center{
+transform: translateX(0);
+opacity: 1;
+}
+.artic.right{
+transform: translateX(100px);
+}
+
+
+
+
+
